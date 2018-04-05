@@ -14,5 +14,5 @@ find_package(catkin REQUIRED COMPONENTS
 catkin_python_setup()
 
 catkin_package(
-    CATKIN_DEPENDS art_brain art_msgs geometry_msgs pr2_controller_msgs rospy std_msgs std_srvs
+    CATKIN_DEPENDS art_brain art_msgs geometry_msgs pr2_controllers_msgs rospy std_msgs std_srvs
 )
