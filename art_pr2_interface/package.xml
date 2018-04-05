@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>art_pr2_interface</name>
+  <version>0.0.0</version>
+  <description>The art_pr2_interface package</description>
+
+  <maintainer email="zdenal@todo.todo">zdenal</maintainer>
+
+  <license>TODO</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>art_brain</build_depend>
+  <build_depend>art_msgs</build_depend>
+  <build_depend>geometry_msgs</build_depend>
+  <build_depend>pr2_controllers_msgs</build_depend>
+  <build_depend>rospy</build_depend>
+  <build_depend>std_msgs</build_depend>
+  <build_depend>std_srvs</build_depend>
+  <build_export_depend>art_brain</build_export_depend>
+  <build_export_depend>art_msgs</build_export_depend>
+  <build_export_depend>geometry_msgs</build_export_depend>
+  <build_export_depend>pr2_controllers_msgs</build_export_depend>
+  <build_export_depend>rospy</build_export_depend>
+  <build_export_depend>std_msgs</build_export_depend>
+  <build_export_depend>std_srvs</build_export_depend>
+  <exec_depend>art_brain</exec_depend>
+  <exec_depend>art_msgs</exec_depend>
+  <exec_depend>geometry_msgs</exec_depend>
+  <exec_depend>pr2_controllers_msgs</exec_depend>
+  <exec_depend>rospy</exec_depend>
+  <exec_depend>std_msgs</exec_depend>
+  <exec_depend>std_srvs</exec_depend>
+
+</package>
