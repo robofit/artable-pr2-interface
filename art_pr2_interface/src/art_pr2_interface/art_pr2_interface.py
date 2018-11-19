@@ -116,6 +116,9 @@ class ArtPr2Interface(ArtBrainRobotInterface):
         else:
             return self.LEFT_ARM
 
+    def select_arm_for_visual_inspection(self):
+        return self.RIGHT_ARM
+
     def select_free_arm(self):
         left_arm = self.get_arm_by_id(self.LEFT_ARM) if self.gripper_usage in [self.BOTH_ARM,
                                                                                self.LEFT_ARM] else None  # type: ArtGripper
